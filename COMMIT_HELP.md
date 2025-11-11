@@ -2,6 +2,8 @@
 
 **Stuck? Use this formula:**
 
+git commit -m "This is where you put the message"
+
 ```
 [VERB] + [WHAT YOU DID]
 ```
@@ -9,6 +11,8 @@
 Your commit messages are notes to Future You about what Present You JUST DID.
 
 Commit Messages carry timestamps, and make a great rough draft fro Crit B: Record Of Tasks
+
+
 
 ---
 
