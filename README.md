@@ -26,13 +26,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr9p3VB_xEn5GQg_lfbKQr3LdSWQXnrpyehg&s" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Apartment Rental System</h3>
 
   <p align="center">
-    project_description
+    A website for a landlord managing six short-term rental apartments. It will include a interactive calendar showing when apartments are occupied and showing all relevant data about client reservations. Will allow for easy adding and editing of bookings through the interface, as well as automated notifications for when clients are arriving or leaving
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,16 +85,19 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ### About the Client (IA A01 Client Scenario)
 
-Put some basic info about your client and their needs. You don't need to dox them, but provide the context for your project
- 
+The current booking process my uncles uses is messy and manual, often leading to forgotten check-in times, and poor communication between cleaning staff and guests. By building a centralized online system, I can make my uncle’s business more organized and time-efficient, while also improving the guest experience by reducing possible errors in forgetting 
 
 ### Built With  (IA A03 Justification)
 
-* Python versio 3.xx (check!)
-* Flask ver 3.x  (check!)
-* What else are you using?
-* Record the library/package name and version number
-* Do this WHEN you add it to the main project!
+Programming Language: Python
+<br />
+Framework: Flask (for backend)
+<br />
+Frontend: HTML, JavaScript
+<br />
+Database: SQLite
+<br />
+Libraries: Flask-Login
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,10 +139,24 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+Project Scaffolding and Setup
+<br />
+Criterion A: Planning
+<br />
+Criterion B: Design and Solution Overview
+<br />
+Foundation Build (Auth, Database, Structure)
+<br />
+Core Feature Development (Calendar and Bookings CRUD)
+<br />
+Notifications, Analytics, and Responsive Design
+<br />
+Testing and Functionality Demonstration
+<br />
+Documentation and Final Write-ups (Criteria A–E)
+<br />
+Polishing, Rubric Checks, and Final Submission Prep
+<br />
 
 As you develop your roadmap, add new features here and to [open issues](https://github.com/github_username/repo_name/issues)
 
