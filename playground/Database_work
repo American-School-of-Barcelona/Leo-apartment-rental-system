@@ -1,0 +1,16 @@
+CREATE TABLE apartments (
+    apartment_number TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    max_guests INTEGER
+);
+
+CREATE TABLE bookings (
+    booking_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    apartment_number TEXT NOT NULL,
+    guest_name TEXT NOT NULL,
+    check_in_date DATE NOT NULL,
+    check_out_date DATE NOT NULL,
+    check_in_time TEXT,
+    check_out_time TEXT,
+    num_guests INTEGER,
+    FOREIGN KEY (apartment_number) REFERENCES apartments(apartment_number)
